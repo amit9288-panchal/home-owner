@@ -22,19 +22,14 @@
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-org/homeowner-api.git
+https://github.com/amit9288-panchal/home-owner.git
 cd homeowner-api
-
-```
-#### Using Git Bundle
-```bash
-https://github.com/amit9288-panchal/roman-number.git
-cd roman-number
 ```
 
 ### 2. Install PHP and Node.js dependencies
 ```bash
 composer install
+npm install
 ```
 ### 3. Set up environment variables
 Copy the example environment file:
@@ -81,13 +76,18 @@ php artisan migrate --env=testing
 ```bash
 php artisan test
 ```
-**Need to add image here**
+![img.png](img.png)
 
 
 ---
 
 ## Frontend Setup (homeowner-ui)
 
+### 1. Go to a frontend project
+
+```bash
+cd homeowner-ui
+```
 ### 1. Install dependencies
 
 ```bash
